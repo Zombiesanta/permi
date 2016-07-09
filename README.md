@@ -1,11 +1,5 @@
-
-
-
  DSO (Apache Module)
 --------------------------
-750 (owner:nobody) Folders & CGI/Perl Scripts
-660 (owner:nobody) Script files needing to have "WRITE" access
-640 (owner:nobody) PHP Scripts, Configuration Files (config.php, etc), Non-Script Files, HTML, Images, etc
 
 
  phpSuExec | suPHP 
