@@ -15,7 +15,7 @@ description="$name is a script to correct permissions of Linux/Unix users. Prima
 
 
 ### Permissions Rulesets
-dontgrep="grep -v 'retained'
+dontgrep="grep -v 'retained'"
 
 DSO() {
   ## 777
