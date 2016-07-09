@@ -5,7 +5,7 @@
  phpSuExec | suPHP 
 -----------------------
 600 (owner:owner)
-  .bash_history
+  .*_history
   .contactemail
   .lastlogin
   .viminfo
@@ -18,6 +18,7 @@
 700 (owner:owner)
   .cpanel
   .cphorde
+  .ssh
   .trash
   logs
 
@@ -27,29 +28,24 @@
 
 750 (owner:nobody)
   .htpasswds
-  .ssh
   etc
   public_html
 
-750 (owner:nobody)
+750 (owner:owner)
   .htpasswds
   .ssh
   etc
   public_ftp
-  public_html
 
 751 (owner:mail)
   mail
 
 755 (owner:owner)
+  .cache
+  .config
   .cl.selector
+  .gem
+  .local
   perl5
   ssl
   tmp
-
-771 (owner:owner)
-  .cagefs
-
-777 (owner:owner)
-  access-logs
-  www
